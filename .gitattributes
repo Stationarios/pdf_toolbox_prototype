@@ -1,0 +1,12 @@
+# Keep source, configuration, and documentation consistent across platforms.
+* text=auto eol=lf
+
+# Binary assets must never be modified by line-ending normalization.
+*.png binary
+*.ico binary
+*.icns binary
+*.pdf binary
+
+# Preserve Windows command files in their native line-ending convention if added later.
+*.bat text eol=crlf
+*.cmd text eol=crlf

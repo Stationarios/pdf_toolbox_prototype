@@ -1,0 +1,26 @@
+# Private, copyrighted, or sensitive PDF test fixtures.
+tests/fixtures/private/*
+!tests/fixtures/private/README.md
+
+# Generated test outputs and temporary files.
+tests/output/
+tests/tmp/
+*.tmp
+*.partial
+
+# Future JavaScript/Rust build artifacts.
+node_modules/
+dist/
+dist-ssr/
+target/
+src-tauri/target/
+.cache/
+*.log
+*.local
+
+# Local editor and operating-system files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
