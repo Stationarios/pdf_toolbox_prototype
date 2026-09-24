@@ -45,17 +45,15 @@ cargo check --manifest-path src-tauri/Cargo.toml
 
 ## Documentation
 
-Detailed design documentation is currently written primarily in Chinese. Translation is welcome, but the project avoids maintaining incomplete line-by-line translations of rapidly changing early design documents.
+Detailed design documentation is currently written primarily in Chinese. Translation is welcome, but the project avoids maintaining incomplete line-by-line translations of rapidly changing early design documents. Start with the [documentation hub (Chinese)](docs/README.md), or open a specific source of truth:
 
-- [Product scope (Chinese)](docs/product.md)
-- [Architecture (Chinese)](docs/architecture.md)
-- [Repository and code guide (Chinese)](docs/repository-guide.md)
-- [File and system safety (Chinese)](docs/safety.md)
-- [Testing strategy (Chinese)](docs/testing.md)
-- [Roadmap (Chinese)](docs/roadmap.md)
-- [Rust/Tauri for C programmers (Chinese)](docs/rust-for-c-programmers.md)
-- [Architecture decision records (Chinese)](docs/decisions/README.md)
-- [Minimal-window validation record (Chinese)](docs/validation/2026-09-23-p1-minimal-window.md)
+- [Product scope](docs/product.md) — Target users, v1 requirements, exclusions, and acceptance criteria.
+- [Roadmap](docs/roadmap.md) — Current phase, planned milestones, and exit criteria.
+- [Architecture](docs/architecture.md) — Current and target system structure, data flow, module boundaries, and technical constraints.
+- [Repository guide](docs/repository-guide.md) — File locations, development commands, and where to make a particular change.
+- [Safety rules](docs/safety.md) — Read-only guarantees, resource limits, privacy, and future write protocol.
+- [Testing strategy](docs/testing.md) — Fixture management, test layers, edge cases, and verification checklists.
+- [Decision records](docs/decisions/README.md) — Why major product and technology choices were made.
 
 ## Contributing
 

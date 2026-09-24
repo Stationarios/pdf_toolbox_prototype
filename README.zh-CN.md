@@ -45,15 +45,15 @@ cargo check --manifest-path src-tauri/Cargo.toml
 
 ## 仓库导览
 
-- [产品范围](docs/product.md)
-- [系统架构](docs/architecture.md)
-- [仓库导航与代码地图](docs/repository-guide.md)
-- [文件与系统安全](docs/safety.md)
-- [测试策略与样本清单](docs/testing.md)
-- [开发路线图](docs/roadmap.md)
-- [给 C 使用者的 Rust/Tauri 说明](docs/rust-for-c-programmers.md)
-- [技术决策记录](docs/decisions/README.md)
-- [最小窗口验证记录](docs/validation/2026-09-23-p1-minimal-window.md)
+不知道从哪里开始时，请先看[文档中心](docs/README.md)。也可以直接前往对应的唯一权威来源：
+
+- [产品范围](docs/product.md) — 目标用户、第一版需求、明确排除项和验收标准。
+- [开发路线图](docs/roadmap.md) — 当前阶段、后续里程碑及每个阶段的退出条件。
+- [系统架构](docs/architecture.md) — 当前与目标结构、数据流、模块边界和关键技术约束。
+- [仓库与代码导航](docs/repository-guide.md) — 文件位置、开发命令，以及修改某项功能应从哪里开始。
+- [安全规则](docs/safety.md) — 只读保证、资源限制、隐私规则和未来写入协议。
+- [测试策略](docs/testing.md) — 样本管理、测试层次、边界情况和验证清单。
+- [架构决策记录](docs/decisions/README.md) — 重要产品与技术选择背后的理由。
 
 ## 参与开发
 

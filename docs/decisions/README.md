@@ -1,12 +1,18 @@
 # 技术决策记录（ADR）
 
-重要技术选择使用短文档记录，避免几个月后只记得结论、不记得原因。
+ADR 解释“为什么当时这样选择”，不替代描述当前系统的[架构文档](../architecture.md)。重要且长期的产品或技术选择使用短文档记录，避免几个月后只记得结论、不记得原因。
+
+## 当前记录
+
+- [0001：第一版仅实现安全的只读预览](0001-initial-product-boundary.md)
+- [0002：初始技术栈采用 Tauri、React、TypeScript 与 PDF.js](0002-initial-technology-stack.md)
+
+## 格式
 
 文件命名：
 
 ```text
-0001-windows-first.md
-0002-tauri-react-pdfjs.md
+0003-short-decision-name.md
 ```
 
 每份 ADR 包含：
